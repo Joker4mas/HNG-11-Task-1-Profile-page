@@ -2,10 +2,15 @@
 
 Study Material
 https://www.freecodecamp.org/news/html-css-11-hour-course/
+
 HTML Tutorial: https://www.w3schools.com/html/
+
 CSS Tutorial: https://www.w3schools.com/css/
+
 Responsive Web Design Guide: https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode
+
 HTMLImageElement: https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/naturalHeight
+
 GitHub Pages: https://docs.github.com/articles/creating-project-pages-manually
 
 ##Task
