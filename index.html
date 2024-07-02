@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+   <main>
+    <div class="container-profile">
+        <div class="content-page">
+            <h1>Samuel Ogbaje's Profile 😎 </h1>
+
+            
+           <div class="desk">
+             
+            <!-- this displays the user's profile image -->
+            <div class="profile-image" data-testId="slackDisplayImage">
+                <img src="/assets/Snapchat-1484832491.jpg" alt="Profile Image">
+            </div>
+            
+
+            <!-- displays my full name -->
+             <div class="detail" data-testId="details">
+
+                 <div class="slackName" data-testId="slackUserName">
+                     <label for="slack">Slack User Name: </label>
+                         <span class="username"> @samuel ogbaje</span>
+                 </div>
+     
+     
+     
+                 <!-- this displays the day of the week eg Monday,Tuesday etc -->
+                 <div class="dayOfTheWeek" data-testId="currentDayOfTheWeek"></div>
+     
+                 <!-- this displays the current date in the format dd/mm/yyyy -->
+                 <div class="currentTime" data-testId="currentUTCTime" ></div>
+     
+     
+                 <!-- this displays my track on HNG-11 -->
+                  <div class="track" data-testId="hngTrack"> 
+                     <label for="track">Track:</label>
+                         <span class="trackName"> FrontEnd HNG-11</span>
+                     </h4>
+                 </div>
+                 </div>
+
+             </div>
+                  <!-- displays my slack user name -->
+           </div> 
+           
+           
+         
+
+            <!-- this displays a paragraph about me -->
+            <div class="goal">
+                <h2>Vision in Technology the next 2 years</h2>
+                <ul>
+                    <li>
+                        <h3>Become a Senior Front-End Developer</h3>
+                        <p>I aspire to become a front-end developer with
+                         a strong foundation in HTML, CSS, JavaScript, ReachJs etc.
+                         I'm looking forward to learning new technologies and techniques to enhance my skills.</p>
+                    </li>
+                    <li>
+                        <h3>Learn and grow in the field</h3>
+                        <p>I'm always eager to learn new skills and technologies, so I plan to work on various projects and assignments to improve my knowledge and skills.</p>
+                    </li>
+                    <li>
+                        <h3>Stay up-to-date with the latest technologies</h3>
+                        <p>I'm always looking for the latest and greatest technologies to help me stay relevant and innovative in the field of technology.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <footer class="visit-hng" data-testId="visit-hng">
+                <span class="ng">Visit HNG  ⏩  
+                <a href="http://hng.tech/learn" target="_blank" rel="noopener noreferrer">Learn More</a>
+                </span>
+
+                <span  class="ng">Visit Scrape  ⏩  <a href="http://scrapeanyweb.site/" target="_blank" rel="noopener noreferrer">Scrape any web</a></span>
+
+                <span class="ng">
+                Visit Keyword ⏩  <a href="http://keyword.dog/" target="_blank" rel="noopener noreferrer">Keyword</a>
+                </span>                
+            </footer>
+        </div>
+    </div>
+   </main> 
+
+
+   <script src="/js/dayOfTheWeek.js"></script>
+   <script src="/js/timeUtc.js"></script>
+</body>
+</html>
