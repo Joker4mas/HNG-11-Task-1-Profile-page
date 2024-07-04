@@ -16,7 +16,7 @@
            <div class="desk">
              
             <!-- this displays the user's profile image -->
-            <div class="profile-image" data-testid="slackDisplayImage">
+            <div class="profile-image" data-testid="slackProfilePicture">
                 <img src="/assets/Snapchat-1484832491.jpg" alt="Profile Image">
             </div>
             
@@ -24,7 +24,7 @@
             <!-- displays my full name -->
              <div class="detail" data-testid="details">
 
-                 <div class="slackName" data-testid="slackId">
+                 <div class="slackName" data-testid="slackDisplayName">
                      <label for="slack">Slack Id: </label>
                          <span class="username"> @samuel ogbaje</span>
                  </div>
@@ -74,15 +74,15 @@
                 </ul>
             </div>
 
-            <footer class="visit-hng" data-testid="visit-hng">
+            <footer class="visit-hng" data-testid="hngLink">
                 <span class="ng">Visit HNG  ⏩  
                 <a href="http://hng.tech/learn" target="_blank" rel="noopener noreferrer">Learn More</a>
                 </span>
 
-                <span  class="ng">Visit Scrape  ⏩  <a href="http://scrapeanyweb.site/" target="_blank" rel="noopener noreferrer">Scrape any web</a></span>
+                <span  class="ng">Visit Scrape  ⏩  <a href="http://scrapeanyweb.site/" target="_blank" rel="noopener noreferrer" data-testid="scrapeanywebLink">Scrape any web</a></span>
 
                 <span class="ng">
-                Visit Keyword ⏩  <a href="http://keyword.dog/" target="_blank" rel="noopener noreferrer">Keyword</a>
+                Visit Keyword ⏩  <a href="http://keyword.dog/" target="_blank" rel="noopener noreferrer" data-testid="keywordLink">Keyword</a>
                 </span>                
             </footer>
         </div>
