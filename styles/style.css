@@ -61,9 +61,7 @@ label {
     font-weight: bold;
 }
 
-.gaol {
-    /* margin-top: em auto; */
-}
+
 
 .goal h2 {
     text-align: center;
@@ -74,12 +72,13 @@ label {
     padding: 1rem;
 }
 
-.goal ul{
+.goal ul {
     /* border: 2px solid red; */
     text-align: center;
     margin-right: 1rem;
 }
-.goal ul li{
+
+.goal ul li {
     list-style: none;
     margin: 1rem 0;
     /* padding: 1rem; */
@@ -98,7 +97,7 @@ label {
 
 }
 
-.ng a{
+.ng a {
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -144,7 +143,7 @@ label {
         align-items: center;
         /* background: yellowgreen; */
     }
- 
+
     .slackName, .dayOfTheWeek, .currentTime, .track {
         margin: 1rem 0;
     }
@@ -175,14 +174,14 @@ label {
         text-align: center;
     }
 
-    
-        .ng {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            margin: .5rem auto;
-        }
+
+    .ng {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: .5rem auto;
+    }
 
     .visit-hng {
         width: 90%;
@@ -201,4 +200,27 @@ label {
     }
 
 
+}
+
+@media (max-width: 44.063rem) {
+    
+    .profile-image img {
+        width: 90%;
+        height: 50vh;
+        border-radius: 50%;
+        margin-left: 1.5rem;
+        overflow: hidden;
+    }
+    .detail {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background: yellowgreen; */
+    }
+
+    .slackName, .dayOfTheWeek, .currentTime, .track {
+        margin: 1rem 0;
+    }
 }

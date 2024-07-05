@@ -9,7 +9,7 @@
 <body>
    <main>
     <div class="container-profile">
-        <div class="content-page">
+        <div class="content-page" data-testid="contentPage">
             <h1>Samuel Ogbaje's Profile 😎 </h1>
 
             
@@ -39,8 +39,8 @@
      
      
                  <!-- this displays my track on HNG-11 -->
-                  <div class="track" data-testid="hngTrack"> 
-                     <label for="track">Track:</label>
+                  <div class="track" data-testid="track"> 
+                     <label for="track" data-testid="hngTrack">Track:</label>
                          <span class="trackName"> FrontEnd HNG-11</span>
                      </h4>
                  </div>
@@ -54,7 +54,7 @@
          
 
             <!-- this displays a paragraph about me -->
-            <div class="goal">
+            <div class="goal" data-testid="goals">
                 <h2>Vision in Technology the next 2 years</h2>
                 <ul>
                     <li>
@@ -74,9 +74,9 @@
                 </ul>
             </div>
 
-            <footer class="visit-hng" data-testid="hngLink">
-                <span class="ng">Visit HNG  ⏩  
-                <a href="http://hng.tech/learn" target="_blank" rel="noopener noreferrer">Learn More</a>
+            <footer class="visit-hng">
+                <span class="ng" >Visit HNG  ⏩  
+                <a href="http://hng.tech/learn" target="_blank" rel="noopener noreferrer"  data-testid="hngLink">Learn More</a>
                 </span>
 
                 <span  class="ng">Visit Scrape  ⏩  <a href="http://scrapeanyweb.site/" target="_blank" rel="noopener noreferrer" data-testid="scrapeanywebLink">Scrape any web</a></span>
