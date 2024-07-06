@@ -11,11 +11,11 @@ const dayOfTheWeek = ['Sunday','Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Fr
 const currentDate = new Date();
 
 //variable to hold the current day of the week and the date
-const currentDayIndex = currentDate.getDay();
+const currentDayIndex = currentDate.getDay('[dat]');
 
 //variable to hold the current day index
 
 const currentDayOfTheWeek = dayOfTheWeek[currentDayIndex];
 
-const currentDayElement = document.querySelector('[data-testId = "currentDayOfTheWeek"]');
+const currentDayElement = document.querySelector('.dayOfTheWeek');
     currentDayElement.textContent = `Today is ${currentDayOfTheWeek}`;
